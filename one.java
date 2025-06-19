@@ -5,6 +5,6 @@ public class one {
         c=a;
         a=b;
         b=c;
-        System.out.println("A= %d B=%d"+a+b);
+        System.out.println("A=+a B=+b");
     }
 }
