@@ -5,6 +5,7 @@ public class one {
         c=a;
         a=b;
         b=c;
+        
         System.out.println("A="+a+ "B="+b);
     }
 }
