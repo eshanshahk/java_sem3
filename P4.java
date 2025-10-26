@@ -8,18 +8,17 @@ class P4 {
         DataInputStream dis = new DataInputStream(System.in);
         System.err.println("Enter the total no of natural numbers!");
         int n = Integer.parseInt(dis.readLine());
-        int largest = 0;
+        System.out.println("enter numbers");
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(dis.readLine());
         }
-
-        for (int i = 0; i < n - 1; i++) {
+        int largest = arr[0];
+        for (int i = 0; i < n; i++) {
             if (arr[i] > largest) {
                 largest = arr[i];
             }
         }
         System.out.println("Largest number is " + largest);
-
     }
 }
