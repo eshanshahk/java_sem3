@@ -25,7 +25,7 @@ class Circle extends Shape{
 class P13{
     public static void main(String[] args) throws IOException {
     Circle obj=new Circle();
-    System.out.println("Perimeter: "+obj.getPerimeter(5));
-    System.out.println("Area : "+obj.getArea(5));
+     System.out.println("Perimeter: "+obj.getPerimeter(5));
+     System.out.println("Area : "+obj.getArea(5));
     }
 }
