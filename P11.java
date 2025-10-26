@@ -43,11 +43,11 @@ public class P11 {
 
             students[i] = new Student(usn, name, branch, phone, percentage);
         }
-        System.out.printf("%-10s %-15s %-10s %-15s %-10s\n", "USN", "Name", "Branch", "Phone", "Percentage");
 
-        for (int i = 0; i < n; i++) {
-            Student s = students[i];
-            System.out.printf("%-10s %-15s %-10s %-15s %-10.2f\n", s.usn, s.name, s.branch, s.phone, s.percentage);
+        System.out.println("\nUSN\tName\tBranch\tPhone\tPercentage");
+
+        for (Student s : students) {
+            System.out.println(s.usn + "\t" + s.name + "\t" + s.branch + "\t" + s.phone + "\t" + s.percentage);
         }
     }
 }
